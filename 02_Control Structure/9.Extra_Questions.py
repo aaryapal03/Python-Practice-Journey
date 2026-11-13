@@ -68,7 +68,24 @@ for i in range(t):
     a,b=b,a+b
 
 
-#Prime number
+#Prime number program
+number = int(input("Enter a number: "))
+
+if number > 1:
+
+    for i in range(2, number):
+        if number % i == 0:
+            print(number, "is Not a Prime Number.")
+            break
+    else:
+        print(number, "is a Prime Number.")
+
+else:
+    print(number, "is Not a Prime Number.")
+
+
+
+# End of Program
 
 
 
