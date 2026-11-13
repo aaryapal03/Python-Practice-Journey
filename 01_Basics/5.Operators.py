@@ -81,5 +81,49 @@ print("list1 is list3 :", list1 is list3)
 print("list1 == list3 :", list1 == list3)
 
 
+# Bitwise Operators
+a = 10
+b = 4
+
+# Bitwise AND (&)
+print("Bitwise AND (&)")
+print("a & b =", a & b)
+
+print()
+
+
+# Bitwise OR (|)
+print("Bitwise OR (|)")
+print("a | b =", a | b)
+
+print()
+
+
+# Bitwise XOR (^)
+print("Bitwise XOR (^)")
+print("a ^ b =", a ^ b)
+
+print()
+
+
+# Bitwise NOT (~)
+print("Bitwise NOT (~)")
+print("~a =", ~a)
+
+print()
+
+
+# Left Shift (<<)
+print("Left Shift (<<)")
+print("a << 1 =", a << 1)
+
+print()
+
+
+# Right Shift (>>)
+print("Right Shift (>>)")
+print("a >> 1 =", a >> 1)
+
+
 # End of Program
 
