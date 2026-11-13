@@ -34,10 +34,8 @@ else:
 
 print()
 
-# ==========================================
-# Program 4 : Count Words
-# ==========================================
 
+# Program 4 : Count Words
 sentence = "I Love Python Programming"
 
 words = sentence.split()
@@ -47,10 +45,8 @@ print("Total Words :", len(words))
 
 print()
 
-# ==========================================
-# Program 5 : Count Characters
-# ==========================================
 
+# Program 5 : Count Characters
 text = "Python"
 
 print("Program 5")
@@ -58,10 +54,8 @@ print("Total Characters :", len(text))
 
 print()
 
-# ==========================================
-# Program 6 : Convert Case
-# ==========================================
 
+# Program 6 : Convert Case
 text = "python programming"
 
 print("Program 6")
@@ -71,10 +65,8 @@ print("Title :", text.title())
 
 print()
 
-# ==========================================
-# Program 7 : Replace a Word
-# ==========================================
 
+# Program 7 : Replace a Word
 text = "I Love Python"
 
 print("Program 7")
@@ -82,10 +74,8 @@ print(text.replace("Python", "AI"))
 
 print()
 
-# ==========================================
-# Program 8 : Find a Character
-# ==========================================
 
+# Program 8 : Find a Character
 text = "Data Science"
 
 print("Program 8")
@@ -93,10 +83,8 @@ print("Index of 'S' :", text.find("S"))
 
 print()
 
-# ==========================================
-# Program 9 : Check Startswith & Endswith
-# ==========================================
 
+# Program 9 : Check Startswith & Endswith
 text = "Python Programming"
 
 print("Program 9")
@@ -105,10 +93,8 @@ print(text.endswith("Programming"))
 
 print()
 
-# ==========================================
-# Program 10 : Join List into String
-# ==========================================
 
+# Program 10 : Join List into String
 words = ["Python", "AI", "Machine Learning"]
 
 result = " | ".join(words)
@@ -118,10 +104,8 @@ print(result)
 
 print()
 
-# ==========================================
-# Program 11 : Print Each Character
-# ==========================================
 
+# Program 11 : Print Each Character
 text = "Python"
 
 print("Program 11")
@@ -131,10 +115,8 @@ for letter in text:
 
 print()
 
-# ==========================================
-# Program 12 : Print Characters at Even Index
-# ==========================================
 
+# Program 12 : Print Characters at Even Index
 text = "Programming"
 
 print("Program 12")
@@ -144,10 +126,8 @@ for i in range(0, len(text), 2):
 
 print()
 
-# ==========================================
-# Program 13 : Remove Extra Spaces
-# ==========================================
 
+# Program 13 : Remove Extra Spaces
 text = "     Hello Python     "
 
 print("Program 13")
@@ -155,10 +135,8 @@ print(text.strip())
 
 print()
 
-# ==========================================
-# Program 14 : Check String Type
-# ==========================================
 
+# Program 14 : Check String Type
 text1 = "Python"
 text2 = "12345"
 text3 = "Python123"
@@ -171,10 +149,8 @@ print("IsAlnum :", text3.isalnum())
 
 print()
 
-# ==========================================
-# Program 15 : Count Frequency of a Character
-# ==========================================
 
+# Program 15 : Count Frequency of a Character
 text = "programming"
 
 character = "m"
@@ -184,10 +160,8 @@ print("Frequency :", text.count(character))
 
 print()
 
-# ==========================================
-# Program 16 : Concatenate Two Strings
-# ==========================================
 
+# Program 16 : Concatenate Two Strings
 first_name = "Aarya"
 last_name = "Pal"
 
@@ -196,10 +170,8 @@ print(first_name + " " + last_name)
 
 print()
 
-# ==========================================
-# Program 17 : Repeat a String
-# ==========================================
 
+# Program 17 : Repeat a String
 text = "Python "
 
 print("Program 17")
@@ -207,10 +179,8 @@ print(text * 3)
 
 print()
 
-# ==========================================
-# Program 18 : Membership Operator
-# ==========================================
 
+# Program 18 : Membership Operator
 text = "Artificial Intelligence"
 
 print("Program 18")
@@ -220,10 +190,8 @@ print("'Machine' not in text :", "Machine" not in text)
 
 print()
 
-# ==========================================
-# Program 19 : First and Last Character
-# ==========================================
 
+# Program 19 : First and Last Character
 text = "Python"
 
 print("Program 19")
@@ -233,10 +201,8 @@ print("Last Character  :", text[-1])
 
 print()
 
-# ==========================================
-# Program 20 : Mixed String Program
-# ==========================================
 
+# Program 20 : Mixed String Program
 text = "python programming"
 
 print("Program 20")
@@ -253,6 +219,30 @@ print("Replace         :", text.replace("python", "Java"))
 
 print()
 
-# ==========================================
+
+#Program 21 : count of elements in string
+alpha=lower=upper=digit=sc=0
+S=input('enter a message')
+for i in S:
+    if i.isalpha():
+        alpha=alpha+1
+        if i.isupper():
+            upper=upper+1
+        else:
+            lower=lower+1
+
+    elif i.isdigit():
+        digit=digit+1
+
+    else:
+        sc=sc+1
+
+
+print('Alpha:-',alpha)
+print('Upper:-',upper)
+print('lower:-',lower)
+print('digit:-',digit)
+print('sc:-',sc)
+    
 # End of Practice Programs
-# ==========================================
+
