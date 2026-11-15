@@ -8,7 +8,6 @@ This folder contains my practice programs on Python dictionaries. Through these 
 |-------|------|----------------|
 | Dictionary Basics | dictionary_basics.py | Creating dictionaries, accessing values, and adding, updating, and deleting key-value pairs |
 | Dictionary Methods | dictionary_methods.py | Practicing methods such as get(), keys(), values(), items(), update(), pop(), popitem(), clear(), copy(), setdefault(), and fromkeys() |
-| Dictionary Comprehension | dictionary_comprehension.py | Creating dictionaries using comprehension, including expressions and conditions |
 | Practice Questions | practice_questions.py | Applying dictionary concepts to solve additional problems |
 
 # Learning Goals
