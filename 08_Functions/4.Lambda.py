@@ -25,7 +25,11 @@ print("Largest Number =", largest(25, 40))
 
 students = [("Rahul", 85), ("Priya", 92), ("Aarya", 88)]
 
-sorted_students = sorted(students, key=lambda student: student[1])
+#1st methods to arrange based on string:- 
+print(sorted(students))
+
+#2nd methods to arrange based on marks:-
+sorted_students = sorted(students, key=lambda students: students[1])
 print(sorted_students)
 
 #End of Program
